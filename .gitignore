@@ -677,3 +677,6 @@ TSWLatexianTemp*
 
 # xwatermark package
 *.xwm
+
+*.tex
+*.sty
