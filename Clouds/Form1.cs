@@ -136,6 +136,8 @@ namespace Clouds
             scaleKoefs.kz -= Convert.ToDouble(scale.Value);
             HandleSceneChange();
         }
+
+
         private void CheckGenGround_CheckedChanged(object sender, EventArgs e)
         {
             bool state = false;
@@ -143,5 +145,15 @@ namespace Clouds
                 state = true;
             groupBox6.Enabled = state;
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            TimeMeasurement.CheckTimeMap();
+        }
+        private void button2_Click(object sender, EventArgs e)
+        {
+            TimeMeasurement.CheckTimeShape();
+        }
+
     }
 }

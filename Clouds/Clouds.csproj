@@ -69,6 +69,7 @@
     <Compile Include="Math\Rotation.cs" />
     <Compile Include="Primitives\Vector.cs" />
     <Compile Include="DrawAlgorithm\Zbuffer.cs" />
+    <Compile Include="TimeAnalysis\TimeMeasurement.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
